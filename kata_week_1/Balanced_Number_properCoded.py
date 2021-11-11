@@ -1,4 +1,8 @@
 def balanced_num(number):
+    """
+    The purpose of this code is two take a middle number (in the case of a number with odd amount of digits), or two middle numbers (in case of even amount of digits), 
+    and sum resulting numbers on both sides separately in order to check if the number is balanced or not. Returning 'Balanced' or 'Not Balanced'.
+    """
         
     #number string is first turned into a list of integers: 
 
