@@ -10,7 +10,7 @@ def balanced_num(number):
     number_list = list(number_list)
     number_list = list(map(int, number_list))
     
-    #If the amount if digits is less or equal to two, return balanced automaticaly 
+    #If the amount of digits is less or equal to two, return balanced automaticaly 
 
     if len(number_list) <= 2:
         return ("Balanced")
