@@ -9,8 +9,7 @@ def queue(queuers, pos):
                 if queuers[pos] == 0:
                     bool = True
                     break
-                print(queuers)
+                
             elif queuers[i] == 0:
                 None
-    print(ind)
-queue([2, 5, 3, 6, 4],1)
+    return ind
