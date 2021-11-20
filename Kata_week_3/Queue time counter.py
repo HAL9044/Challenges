@@ -10,6 +10,5 @@ def queue(queuers, pos):
                     bool = True
                     break
                 
-            elif queuers[i] == 0:
-                None
+            
     return ind
